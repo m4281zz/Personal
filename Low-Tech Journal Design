@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Low Tech Magazine Style Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <div class="meta-row">
+          <span>Vol. 17 • Independent Edition</span>
+          <span>Updated: March 2026</span>
+        </div>
+        <div class="brand">
+          <div class="sun" aria-hidden="true"></div>
+          <div>
+            <h1>Low-Tech Journal</h1>
+            <p class="tagline">Doubts on progress and technology</p>
+          </div>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">Off-Grid Web</a></li>
+          <li><a href="#">Long Reads</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+
+      <section class="layout">
+        <section class="main">
+          <article class="feature">
+            <span class="label">Featured</span>
+            <h2>The Return of Mechanical Cooling in an Overheated Digital Era</h2>
+            <p>
+              A practical look at resilient systems, low-energy material choices, and why constraints can improve design quality.
+            </p>
+            <div class="hero-img" aria-hidden="true"></div>
+            <p>
+              This layout is a visual recreation inspired by the tone of solar.lowtechmagazine.com, with warm newspaper colors,
+              dense serif typography, and explicit section framing.
+            </p>
+          </article>
+
+          <section class="list">
+            <article class="post">
+              <span class="label">Energy</span>
+              <h3>Solar Websites and Seasonal Performance Limits</h3>
+              <p>Designing publishing schedules around daylight, weather, and battery constraints.</p>
+            </article>
+            <article class="post">
+              <span class="label">Materials</span>
+              <h3>How to Build Durable Interfaces with Fewer Layers</h3>
+              <p>Reduction as a strategy for maintenance, speed, and long-term compatibility.</p>
+            </article>
+            <article class="post">
+              <span class="label">History</span>
+              <h3>Infrastructure Before Abundance</h3>
+              <p>What pre-electrification systems can teach modern software teams.</p>
+            </article>
+            <article class="post">
+              <span class="label">Practice</span>
+              <h3>Cold Storage, Paper Archives, and Slow Access Patterns</h3>
+              <p>When slower systems increase reliability and reduce total cost.</p>
+            </article>
+          </section>
+        </section>
+
+        <aside class="side">
+          <section class="panel">
+            <h4>Latest</h4>
+            <div class="body">
+              <ul>
+                <li>Off-grid publication checklist</li>
+                <li>Seasonal reader traffic report</li>
+                <li>Archive scan quality improvements</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h4>Newsletter</h4>
+            <div class="body">
+              Monthly dispatch on low-energy technology and design constraints.
+            </div>
+          </section>
+
+          <section class="panel">
+            <h4>Support</h4>
+            <div class="body">
+              Reader-funded, ad-free, and intentionally small.
+            </div>
+          </section>
+        </aside>
+      </section>
+
+      <footer>
+        <span>Recreation for learning purposes</span>
+        <span>Built with plain HTML + CSS</span>
+      </footer>
+    </main>
+  </body>
+</html>
